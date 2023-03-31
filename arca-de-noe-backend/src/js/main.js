@@ -31,7 +31,7 @@ mongoose.set("strictQuery", true);
 
 mongoose
     .connect(
-        "mongodb+srv://enio:root@cluster0.bmoldca.mongodb.net/?retryWrites=true&w=majority"
+        "mongodb+srv://enio:<password>@cluster0.bmoldca.mongodb.net/?retryWrites=true&w=majority"
     )
     .then(() => {
         console.log("Connected with mongoDB!");
